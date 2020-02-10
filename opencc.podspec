@@ -15,4 +15,7 @@ Pod::Spec.new do |s|
       'deps/rapidjson-0.11/**/*.{hpp,cpp,h,c,cc}',
       'deps/tclap-1.2.1/**/*.{hpp,cpp,h,c,cc}']
   s.exclude_files = ['src/*Test.{hpp,cpp}']
+  s.public_header_files = [
+      'src/*.{hpp,h}'
+    ]
 end
